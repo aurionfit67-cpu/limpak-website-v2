@@ -1,7 +1,0 @@
-import { COMPANY, FOUNDER } from '@/config/company';
-
-export const metadata = { title: `Company — ${COMPANY.name}`, description: COMPANY.description };
-
-export default function CompanyPage() {
-  return <div className="py-16 md:py-24"><div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"><header className="text-center mb-12"><h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">{COMPANY.name}</h1><p className="text-xl text-gray-600 dark:text-gray-300">{COMPANY.shortDescription}</p></header><div className="rounded-3xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-8 md:p-12"><h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">A technology company built around execution</h2><p className="text-gray-600 dark:text-gray-300 mb-8">{COMPANY.description} Founded in {COMPANY.founded}, LIMEPAK operates as an online technology company.</p><h3 className="font-semibold text-gray-900 dark:text-white mb-3">Focus areas</h3><ul className="grid sm:grid-cols-2 gap-3">{COMPANY.focusAreas.map(area => <li key={area} className="rounded-xl bg-lime-500/5 border border-lime-500/10 p-3 text-gray-700 dark:text-gray-200">{area}</li>)}</ul><div className="mt-10 pt-8 border-t border-gray-200 dark:border-gray-800"><p className="text-sm text-gray-500 dark:text-gray-400">Founder & CEO</p><p className="text-xl font-bold text-gray-900 dark:text-white mt-1">{FOUNDER.name}</p></div></div></div></div>;
-}

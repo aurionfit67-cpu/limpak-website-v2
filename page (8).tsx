@@ -1,5 +1,0 @@
-import { COMPANY, LAYER } from '@/config/company';
-
-export const metadata = { title: `${LAYER.name} — ${COMPANY.name}`, description: LAYER.description };
-
-export default function LayerPage() { return <div className="py-16 md:py-24"><div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"><div className="rounded-3xl bg-gradient-to-br from-lime-500/10 to-lime-500/5 border border-lime-500/20 p-8 md:p-12"><p className="text-sm font-semibold text-lime-600 dark:text-lime-400 uppercase tracking-wider mb-3">LIMEPAK product</p><h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-4">{LAYER.name}</h1><p className="text-xl text-lime-600 dark:text-lime-400 mb-6">{LAYER.tagline}</p><p className="text-lg text-gray-600 dark:text-gray-300 mb-8">{LAYER.description}</p><ul className="grid md:grid-cols-2 gap-3">{LAYER.features.map(feature => <li key={feature} className="rounded-xl bg-white/70 dark:bg-gray-900/50 p-4 text-gray-700 dark:text-gray-200">✓ {feature}</li>)}</ul></div></div></div>; }
