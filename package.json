@@ -1,0 +1,38 @@
+{
+  "name": "limepak",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LIMEPAK — Building Apps, Websites, SaaS & AI Systems",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "android:init": "capacitor init",
+    "android:sync": "capacitor sync",
+    "android:open": "capacitor open android",
+    "android:build": "npm run build && capacitor sync && capacitor copy && capacitor update",
+    "android:copy": "capacitor copy",
+    "android:update": "capacitor update"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.2.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.0"
+  }
+}

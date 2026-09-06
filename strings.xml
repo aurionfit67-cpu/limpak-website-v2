@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LIMEPAK Android String Resources -->
+
+<resources>
+    <string name="app_name">LIMEPAK</string>
+    <string name="app_version">1.0.0</string>
+    <string name="app_id">com.limepak.app</string>
+    <string name="app_build">1</string>
+    
+    <!-- Default strings -->
+    <string name="default_web_page">about:blank</string>
+    <string name="title_activity_main">LIMEPAK</string>
+    
+    <!-- Capacitor strings -->
+    <string name="capacitor_assets_dir">capacitor-cordova-android-plugins/src/main/assets</string>
+    <string name="capacitor_public_assets_dir">public</string>
+</resources>

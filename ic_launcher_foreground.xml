@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LIMEPAK Launcher Foreground -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle" android:width="100dp" android:height="100dp">
+            <solid android:color="@color/limepakBackground" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <bitmap android:src="@mipmap/ic_launcher" android:tint="@color/limepakPrimary" />
+    </item>
+</layer-list>
